@@ -1,0 +1,12 @@
+#hexo robots.txt
+User-agent: *
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Disallow: /assets/
+Disallow: /lib/
+Sitemap: http://szdastone.github.io/search.xml
+Sitemap: http://szdastone.github.io/sitemap.xml
+Sitemap: http://szdastone.github.io/baidusitemap.xml
