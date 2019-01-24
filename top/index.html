@@ -54,44 +54,6 @@
 
 
 
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-    
-      
-    
-
-    
-  
-
-  
-
-  
-
-  
-    
-      
-    
-
-    
-  
-
-  
-    
-    
-    <link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
-  
-
-
-
 
 
 
@@ -153,7 +115,7 @@
 <meta property="og:site_name" content="Dastone&#39;s Study Notes">
 <meta property="og:description" content="博客文章阅读量排行榜">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-23T08:36:43.139Z">
+<meta property="og:updated_time" content="2019-01-24T03:57:54.517Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="琅琊榜">
 <meta name="twitter:description" content="博客文章阅读量排行榜">
@@ -341,6 +303,25 @@
         
         
           
+          <li class="menu-item menu-item-top menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/top/" rel="section"><i class="menu-item-icon fa fa-fw fa-signal"></i> <br>琅琊榜</a>
+
+  </li>
+        
+        
+        
+          
           <li class="menu-item menu-item-about">
 
     
@@ -374,6 +355,9 @@
     
 
     
+    
+      
+      
     
       
       
@@ -478,7 +462,35 @@
       <div class="post-body">
         
         
-          <script>
+          <p></p><div id="top"></div><p></p>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script>AV.initialize("yoKEQ6XcEPewI1xdNfJifqFX-gzGzoHsz", "ql2jgSuhOVBhuxJgtsf0dRN5");</script>
+<script type="text/javascript">
+  console.log(AV)
+  var time=0
+  var title=""
+  var url=""
+  var query = new AV.Query('Counter');
+  query.notEqualTo('id',0);
+  query.descending('time');
+  query.limit(1000);
+  console.log(query)
+  query.find().then(function (todo) {
+    for (var i=0;i<1000;i++){
+      var result=todo[i].attributes;
+      console.log(result)
+      time=result.time;
+      title=result.title;
+      url=result.url;
+      var content="<a href='"+"https://szdastone.github.io"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'>"+"阅读次数："+time+"</font>"+"<br /><br />";
+      document.getElementById("top").innerHTML+=content
+    }
+  }, function (error) {
+    console.log(error);
+  });
+</script>
+
+<style>.post-description { display: none; }</style><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
