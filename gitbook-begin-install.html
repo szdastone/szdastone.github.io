@@ -115,7 +115,7 @@
 <meta property="og:site_name" content="Dastone&#39;s Study Notes">
 <meta property="og:description" content="简介​    本手册基于Gitbook版本2.3.2，主要就Gitbook的安装、配置、插件、主题等进行介绍与说明。 ​    由于本人在Gitbook上是初学，故多会参考或翻译官方文档以及网上一些内容。由于本人水平有限，如翻译或引用不正确，请多包涵！">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-24T02:27:21.386Z">
+<meta property="og:updated_time" content="2019-01-28T01:41:53.762Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Gitbook简介及安装">
 <meta name="twitter:description" content="简介​    本手册基于Gitbook版本2.3.2，主要就Gitbook的安装、配置、插件、主题等进行介绍与说明。 ​    由于本人在Gitbook上是初学，故多会参考或翻译官方文档以及网上一些内容。由于本人水平有限，如翻译或引用不正确，请多包涵！">
@@ -277,7 +277,7 @@
       
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">1</span></a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">2</span></a>
 
   </li>
         
@@ -296,7 +296,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">2</span></a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">3</span></a>
 
   </li>
         
@@ -485,16 +485,27 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/gitbook/" itemprop="url" rel="index"><span itemprop="name">gitbook</span></a></span>
 
                 
                 
               
             </span>
           
-
           
             
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/gitbook-begin-install.html#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/gitbook-begin-install.html" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -698,6 +709,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/gitbook-command-setup.html" rel="prev" title="Gitbook命令和配置">
+                Gitbook命令和配置 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -770,7 +785,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -785,7 +800,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -942,7 +959,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">25k</span>
   
 
   
@@ -951,7 +968,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">12 分钟</span>
+    <span title="站点阅读时长">22 分钟</span>
   
 </div>
 
@@ -1105,6 +1122,38 @@
 
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+  
+
+<script src="https://cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  var valine = new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'yoKEQ6XcEPewI1xdNfJifqFX-gzGzoHsz',
+    appKey: 'ql2jgSuhOVBhuxJgtsf0dRN5',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: true
+  });
+  console.log(valine);
+</script>
+
+
 
 
   
