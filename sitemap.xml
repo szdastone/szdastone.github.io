@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://szdastone.github.io/gitbook-publish.html</loc>
+    
+    <lastmod>2019-01-30T08:01:01.045Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://szdastone.github.io/gitbook-plugin-theme.html</loc>
+    
+    <lastmod>2019-01-30T07:17:38.854Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://szdastone.github.io/top/index.html</loc>
     
-    <lastmod>2019-01-28T07:38:15.399Z</lastmod>
+    <lastmod>2019-01-30T04:27:44.570Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://szdastone.github.io/about/index.html</loc>
+    
+    <lastmod>2019-01-30T03:44:50.963Z</lastmod>
     
   </url>
   
@@ -40,13 +61,6 @@
     <loc>http://szdastone.github.io/categories/index.html</loc>
     
     <lastmod>2019-01-22T04:26:15.597Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://szdastone.github.io/about/index.html</loc>
-    
-    <lastmod>2019-01-22T04:25:52.126Z</lastmod>
     
   </url>
   
