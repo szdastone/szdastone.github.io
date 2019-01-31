@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://szdastone.github.io/gitbook-publish.html</loc>
+    <loc>http://szdastone.github.io/posts/gitbook_publish.html</loc>
     
-    <lastmod>2019-01-30T08:01:01.045Z</lastmod>
+    <lastmod>2019-01-31T09:08:28.613Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://szdastone.github.io/gitbook-plugin-theme.html</loc>
+    <loc>http://szdastone.github.io/posts/gitbook_plugin_theme.html</loc>
     
-    <lastmod>2019-01-30T07:17:38.854Z</lastmod>
+    <lastmod>2019-01-31T09:08:20.517Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://szdastone.github.io/posts/gitbook_command_setup.html</loc>
+    
+    <lastmod>2019-01-31T09:08:09.911Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://szdastone.github.io/posts/gitbook_begin_install.html</loc>
+    
+    <lastmod>2019-01-31T09:07:54.515Z</lastmod>
     
   </url>
   
@@ -30,21 +44,7 @@
   </url>
   
   <url>
-    <loc>http://szdastone.github.io/gitbook-command-setup.html</loc>
-    
-    <lastmod>2019-01-28T01:52:06.082Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://szdastone.github.io/gitbook-begin-install.html</loc>
-    
-    <lastmod>2019-01-28T01:41:53.762Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://szdastone.github.io/gitcheetsheet.html</loc>
+    <loc>http://szdastone.github.io/posts/gitcheetsheet.html</loc>
     
     <lastmod>2019-01-22T09:58:35.030Z</lastmod>
     

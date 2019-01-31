@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://szdastone.github.io/gitbook-publish.html</loc>
-    <lastmod>2019-01-30</lastmod>
+    <loc>http://szdastone.github.io/posts/gitbook_publish.html</loc>
+    <lastmod>2019-01-31</lastmod>
   </url>  <url>
-    <loc>http://szdastone.github.io/gitbook-plugin-theme.html</loc>
-    <lastmod>2019-01-30</lastmod>
+    <loc>http://szdastone.github.io/posts/gitbook_plugin_theme.html</loc>
+    <lastmod>2019-01-31</lastmod>
   </url>  <url>
-    <loc>http://szdastone.github.io/gitbook-command-setup.html</loc>
-    <lastmod>2019-01-28</lastmod>
+    <loc>http://szdastone.github.io/posts/gitbook_command_setup.html</loc>
+    <lastmod>2019-01-31</lastmod>
   </url>  <url>
-    <loc>http://szdastone.github.io/gitbook-begin-install.html</loc>
-    <lastmod>2019-01-28</lastmod>
+    <loc>http://szdastone.github.io/posts/gitbook_begin_install.html</loc>
+    <lastmod>2019-01-31</lastmod>
   </url>  <url>
-    <loc>http://szdastone.github.io/gitcheetsheet.html</loc>
+    <loc>http://szdastone.github.io/posts/gitcheetsheet.html</loc>
     <lastmod>2019-01-22</lastmod>
   </url>
 </urlset>
